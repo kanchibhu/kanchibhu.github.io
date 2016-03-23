@@ -99,7 +99,7 @@ of those sections to manage the look and feel of the site. */
 }
 #main-heading {
 
-  margin:auto;
+  margin-top:20%;
 
 }
 
@@ -140,13 +140,23 @@ of those sections to manage the look and feel of the site. */
 }
 
 .btn-circle-video{
-  width: 70px;
-  height: 70px;
-
-  border-radius: 35px;
-  margin-left: 50%;
+ width: 100px;
+ background-color: transparent;
+ color: gray;
+ border-color: gray;
+   border-radius: 5px;
+  margin-left: 45%;
   margin-top: 25%;
   position: relative;
+
+}
+
+#item {
+position: absolute;
+ min-width: 100%; 
+  min-height: 100%;
+  width: 100%; 
+  height: auto;
 
 }
 
