@@ -52,11 +52,14 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
   height: 100%;
-
+  
   text-align: center;
   background: #fff;
-   background-image: url("http://www.tileideaz.com/wp-content/uploads/2015/10/bespoke-bathroom-designs.jpg");
-
+  background-image: url("http://www.tileideaz.com/wp-content/uploads/2015/10/bespoke-bathroom-designs.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .intro-section h1,.features-section h1{
