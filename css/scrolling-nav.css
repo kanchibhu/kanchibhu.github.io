@@ -6,12 +6,17 @@
 
  @import url(https://fonts.googleapis.com/css?family=Quicksand);
 
-
+@font-face {
+font-family: 'Caviar Dreams';
+font-style: normal;
+font-weight: normal;
+src: local('Caviar Dreams'), url('CaviarDreams.tff') format('tff');
+}
 
  body {
   width: 100%;
   height: 100%;
-  font-family: Quicksand;
+  font-family: Caviar Dreams;
 
 }
 
@@ -47,15 +52,17 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
   height: 100%;
-  padding-top: 150px;
+
   text-align: center;
   background: #fff;
+   background-image: url("http://www.tileideaz.com/wp-content/uploads/2015/10/bespoke-bathroom-designs.jpg");
 
 }
 
 .intro-section h1,.features-section h1{
 
   color: #00bcf2;
+
 }
 
 
