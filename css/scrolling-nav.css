@@ -11,7 +11,7 @@
 font-family: 'Caviar Dreams';
 font-style: normal;
 font-weight: normal;
-src: url('fonts/CaviarDreams.tff') format('tff');
+src: url('../fonts/CaviarDreams.tff') format('tff');
 }
 
  body {
