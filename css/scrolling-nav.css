@@ -57,15 +57,18 @@ h2{
 
 .navbar li>a{
 
-  font-weight: 800;
+  font-weight: 900;
   letter-spacing: 3px;
+  color: black;
 }
 
 .navbar{
 
   background-color: white;
 }
-
+.navbar-default .navbar-nav>li>a {
+     color: black; 
+}
 
 
 @media(min-width:767px) {
