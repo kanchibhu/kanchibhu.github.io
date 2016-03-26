@@ -132,7 +132,7 @@ of those sections to manage the look and feel of the site. */
 
 }
 
-.intro-section h1,.features-section h1,.story-section h2,.new-features-section h2{
+.intro-section h1,.features-section h1,.story-section h2,.new-features-section h2, h4{
 
   color: #00bcf2;
 
@@ -227,7 +227,7 @@ of those sections to manage the look and feel of the site. */
   border-radius: 55px;
   display: inline;
   position: fixed; 
-   opacity: 0.3; 
+   opacity: 0.5; 
   bottom: 50px; 
   right: 60px; 
 }
@@ -240,7 +240,7 @@ of those sections to manage the look and feel of the site. */
   line-height: 1.33;
   border-radius: 55px;
   display: inline;
-   opacity: 0.3; 
+   opacity: 0.5; 
   position: fixed; 
   bottom: 140px; 
   right: 25px; 
@@ -255,7 +255,7 @@ of those sections to manage the look and feel of the site. */
   line-height: 1.33;
   border-radius: 55px;
   display: inline;
-   opacity: 0.3; 
+   opacity: 0.5; 
   position: fixed; 
   bottom: 200px; 
   right: 90px; 
@@ -273,7 +273,7 @@ width: 30px;
   display: inline;
   position: fixed; 
   bottom: 230px;
-  opacity: 0.3; 
+  opacity: 0.5; 
   right: 60px; 
 }
 
