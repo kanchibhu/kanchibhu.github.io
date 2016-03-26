@@ -55,7 +55,7 @@ h2{
   line-height: 36px;
 }
 
-.navbar a{
+.navbar li>a{
 
   font-weight: 800;
   letter-spacing: 3px;
