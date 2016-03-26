@@ -4,7 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- @import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
 
 @font-face {
 font-family: 'Caviar Dreams';
@@ -30,12 +31,30 @@ h1{
   font-size: 80px;
 }
 
+.navbar {
+
+  font-size: 15px;
+}
+
+p{
+
+  font-family: Lato;
+  line-height: 32px;
+}
+
+h2{
+  letter-spacing: 5px;
+  font-family: Caviar Dreams;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+}
 
 
 
 @media(min-width:767px) {
   .navbar {
-    padding: 20px 0;
+    
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -56,6 +75,7 @@ of those sections to manage the look and feel of the site. */
   text-align: center;
   background: #fff;
   background-image: url("http://www.tileideaz.com/wp-content/uploads/2015/10/bespoke-bathroom-designs.jpg");
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -64,13 +84,19 @@ of those sections to manage the look and feel of the site. */
 
 .story-section {
   height: 100%;
-  padding-top: 150px;
-  text-align: center;
+  padding-top: 50px;
+  text-align: justify;
   background: #fff;
   
 }
 
-.intro-section h1,.features-section h1,.story-section h1{
+.story-section p{
+
+ font-size : 18px;
+
+}
+
+.intro-section h1,.features-section h1,.story-section h2{
 
   color: #00bcf2;
 
