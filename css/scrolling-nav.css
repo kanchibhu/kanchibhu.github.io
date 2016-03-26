@@ -53,10 +53,15 @@ h1{
   font-size: 15px;
 }
 
-p{
+.features-section p{
 
-  font-family: Lato;
+  
   line-height: 32px;
+}
+
+p{
+  font-family: Lato;
+  line-height: 25px;
 }
 
 h2{
@@ -127,7 +132,7 @@ of those sections to manage the look and feel of the site. */
 
 }
 
-.intro-section h1,.features-section h1,.story-section h2{
+.intro-section h1,.features-section h1,.story-section h2,.new-features-section h2{
 
   color: #00bcf2;
 
@@ -150,6 +155,12 @@ of those sections to manage the look and feel of the site. */
   background: #fff;
 }
 
+.new-features-section {
+  height: 100%;
+  padding-top: 20px;
+  
+  background: #fff;
+}
 
 
 .scenario-section {
@@ -207,22 +218,69 @@ of those sections to manage the look and feel of the site. */
 
 
 .btn-circle{
+  width: 100px;
+  height: 100px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+   background-color:#00b1ea;
+  border-radius: 55px;
+  display: inline;
+  position: fixed; 
+   opacity: 0.3; 
+  bottom: 50px; 
+  right: 60px; 
+}
+
+.circle1{
   width: 70px;
   height: 70px;
   padding: 10px 16px;
   font-size: 24px;
   line-height: 1.33;
-  border-radius: 35px;
+  border-radius: 55px;
+  display: inline;
+   opacity: 0.3; 
+  position: fixed; 
+  bottom: 140px; 
+  right: 25px; 
+}
+
+.circle2{
+  width: 40px;
+  height: 40px;
+  padding: 10px 16px;
+  font-size: 24px;
+  background-color:#f89d3e;
+  line-height: 1.33;
+  border-radius: 55px;
+  display: inline;
+   opacity: 0.3; 
+  position: fixed; 
+  bottom: 200px; 
+  right: 90px; 
+}
+
+.circle3{
+width: 30px;
+  height: 30px;
+  text-align: center;
+  background-color: #939597;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
   display: inline;
   position: fixed; 
-  bottom: 50px; 
-  right: 50px; 
+  bottom: 230px;
+  opacity: 0.3; 
+  right: 60px; 
 }
 
 .btn-circle-video{
  width: 100px;
  background-color: transparent;
- color: gray;
+
  border-color: gray;
    border-radius: 5px;
   margin-left: 45%;
