@@ -55,9 +55,14 @@ h2{
   line-height: 36px;
 }
 
-a{
+.navbar a{
 
-  font-weight: 800;
+  font-weight: 600;
+}
+
+.navbar{
+
+  background-color: white;
 }
 
 
