@@ -126,6 +126,14 @@ of those sections to manage the look and feel of the site. */
   
 }
 
+div.transbox {
+  width:500px;
+  background-color: #ffffff;
+  margin-left: -20px;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
 .persona-section p,.video-section-2 p{
 
  font-size : 18px;
@@ -208,10 +216,12 @@ of those sections to manage the look and feel of the site. */
 
 .scenario-section {
   height: 100%;
-  padding-top: 150px;
+ /* padding-top: 150px;*/
   text-align: justify;
   background: #fff;
-
+  /*background-image: url("../images/sc1.png");
+  background-size: cover;
+  background-repeat: no-repeat;*/
 
 
 }
@@ -346,11 +356,19 @@ width: 30px;
 }
 
 #item {
-position: relative;
- min-width: 100%; 
-  min-height: 100%;
-  width: auto; 
-  height: 100%;
+display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  height:100%;  
 
 }
 
