@@ -106,16 +106,16 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-  height: 100%;
-  
+ height:100%;
   text-align: center;
   background: #fff;
-  background-image: url("http://www.tileideaz.com/wp-content/uploads/2015/10/bespoke-bathroom-designs.jpg");
-  
-  -webkit-background-size: cover;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -o-background-size: cover;*/
+  background-size: 100%;
+
 }
 
 .persona-section {
@@ -209,7 +209,7 @@ of those sections to manage the look and feel of the site. */
 .scenario-section {
   height: 100%;
   padding-top: 150px;
-  text-align: center;
+  text-align: justify;
   background: #fff;
 
 
@@ -222,13 +222,14 @@ of those sections to manage the look and feel of the site. */
   height: 100%;
   padding-top: 150px;
   text-align: center;
+
   background: #fff;
 }
 
 
 .team-section p{
 
- /*margin-top: 10%;*/
+ margin-top: 10%;
 
 }
 #main-heading {
@@ -249,8 +250,8 @@ of those sections to manage the look and feel of the site. */
 
 .my-img-circle {
 
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
  
   
   
@@ -262,9 +263,7 @@ of those sections to manage the look and feel of the site. */
 
   width: 230px;
   height: 230px;
-  background-color: #efefef;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
+  
   overflow: hidden;
 
   position: absolute;
@@ -361,7 +360,7 @@ position: relative;
     }
 
 
-@media (min-width: 674px){
+/*@media (min-width: 674px){
 
       .video-section-1{
         display: none;
@@ -370,7 +369,7 @@ position: relative;
         display:block;
       }
 }
-
+*/
 
 
 
