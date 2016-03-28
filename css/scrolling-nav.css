@@ -421,6 +421,12 @@ display: block;
 
 @media (max-width: 674px){
 
+      #logo-new{
+
+display: none;
+}
+
+
       .circle1{
         display: none;
       }
@@ -434,15 +440,14 @@ display: block;
 
         width:100px;
         height:100px;
-        background-color: white;
-        color: black;
+        
         font-family: caviar_dreamsbold;
         opacity: 1;
         text-align: center;
         font-size: 8px;
         position: absolute;
-        margin-right: -10%;
-
+        margin-right: -15%;
+        top:25px;
 
       }
 
@@ -501,6 +506,7 @@ display: block;
 
 
 
+
 }
 
 
@@ -512,4 +518,7 @@ display: block;
 }
 
 
+#logo-new{
 
+  margin-top:30%;margin-left:-30%;
+}
