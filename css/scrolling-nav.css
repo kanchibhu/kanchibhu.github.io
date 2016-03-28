@@ -114,7 +114,7 @@ of those sections to manage the look and feel of the site. */
   /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;*/
-  background-size: 100%;
+  background-size: cover;
 
 }
 
@@ -231,7 +231,7 @@ div.transbox {
 .team-section {
   height: 100%;
   padding-top: 150px;
-  text-align: center;
+  text-align: justify;
 
   background: #fff;
 }
@@ -239,11 +239,19 @@ div.transbox {
 
 .team-section p{
 
- margin-top: 10%;
+ /*margin-top: 10%;*/
+ font-size: 16px;
 
 }
-#main-heading {
+#landing {
 
+background: hsla(0, 0%, 0%, 0.3);
+width:60%;
+margin-left:-10%;
+display:block;
+margin-top:-2%;
+height:auto;
+padding: 10px;
  
 
 }
@@ -260,9 +268,8 @@ div.transbox {
 
 .my-img-circle {
 
-  width: 100px;
-  height: 100px;
- 
+  width: 150px;
+  height: 150px;margin-top: 30%;
   
   
  
@@ -293,7 +300,10 @@ div.transbox {
   border-radius: 55px;
   display: inline;
   position: fixed; 
-   opacity: 0.5; 
+   opacity: 0.7; 
+   color: white;
+
+
   bottom: 50px; 
   right: 60px; 
 }
@@ -302,11 +312,13 @@ div.transbox {
   width: 70px;
   height: 70px;
   padding: 10px 16px;
+  color: white;
+
   font-size: 24px;
   line-height: 1.33;
   border-radius: 55px;
   display: inline;
-   opacity: 0.5; 
+   opacity: 0.7; 
   position: fixed; 
   bottom: 140px; 
   right: 25px; 
@@ -318,10 +330,12 @@ div.transbox {
   padding: 10px 16px;
   font-size: 24px;
   background-color:#f89d3e;
+  color: white;
+
   line-height: 1.33;
   border-radius: 55px;
   display: inline;
-   opacity: 0.5; 
+   opacity: 0.7; 
   position: fixed; 
   bottom: 200px; 
   right: 90px; 
@@ -331,6 +345,7 @@ div.transbox {
 width: 30px;
   height: 30px;
   text-align: center;
+  color: white;
   background-color: #939597;
   padding: 6px 0;
   font-size: 12px;
@@ -339,13 +354,14 @@ width: 30px;
   display: inline;
   position: fixed; 
   bottom: 230px;
-  opacity: 0.5; 
+  opacity: 0.7; 
   right: 60px; 
 }
 
 .btn-circle-video{
  width: 100px;
  background-color: transparent;
+color: white;
 
  border-color: gray;
    border-radius: 5px;
