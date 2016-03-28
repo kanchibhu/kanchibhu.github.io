@@ -55,10 +55,16 @@ h1{
 
 .features-section p{
 
-  
-  line-height: 32px;
+  font-size: 16px;
+ 
 }
 
+
+.features-section h3{
+
+  font-family: caviar_dreamsbold;
+
+}
 p{
   font-family: Lato;
   line-height: 25px;
@@ -200,7 +206,14 @@ div.transbox {
 
 .new-features-section {
   height: 100%;
-  padding-top: 20px;
+  padding-top: 100px;
+  
+  background: #fff;
+}
+
+.features-section {
+  height: 100%;
+  padding-top: 80px;
   
   background: #fff;
 }
@@ -251,7 +264,7 @@ margin-left:-10%;
 display:block;
 margin-top:-2%;
 height:auto;
-padding: 10px;
+padding: 5px;
  
 
 }
@@ -269,7 +282,8 @@ padding: 10px;
 .my-img-circle {
 
   width: 150px;
-  height: 150px;margin-top: 30%;
+  height: 150px;
+  margin-top: 30%;
   
   
  
@@ -405,6 +419,12 @@ display: block;
 }
 */
 
+.quotes {display: none;}
+
+.team-section p{
+
+  text-align: center;
+}
 
 
 
