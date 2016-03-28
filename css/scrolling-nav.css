@@ -48,6 +48,10 @@ h1{
   font-size: 80px;
 }
 
+
+
+
+
 .navbar {
 
   font-size: 15px;
@@ -116,10 +120,10 @@ of those sections to manage the look and feel of the site. */
   text-align: center;
   background: #fff;
   background-image: url("../images/background.png");
-  background-repeat: no-repeat;
-  /*-webkit-background-size: cover;
+  
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;*/
+  -o-background-size: cover;
   background-size: cover;
 
 }
@@ -407,17 +411,98 @@ display: block;
         display: block;
     }
 
+#tagline{
+        margin-left: 18%;
+      }
 
-/*@media (min-width: 674px){
+      #main-heading{
+        margin-left: 20%;
+      }
 
-      .video-section-1{
+@media (max-width: 674px){
+
+      .circle1{
         display: none;
       }
-      .video-section-2{
-        display:block;
+      .circle2{
+        display:none;
       }
+      .circle3{
+        display: none;
+      }
+      .btn-circle{
+
+        width:100px;
+        height:100px;
+        background-color: white;
+        color: black;
+        font-family: caviar_dreamsbold;
+        opacity: 1;
+        text-align: center;
+        font-size: 8px;
+        position: absolute;
+        margin-right: -10%;
+
+
+      }
+
+      #landing{
+
+    
+
+    background-color: transparent;
+    width:100%;
+margin-left:0%;
+display:block;
+margin-top:150%;
+
+padding: 5px;
+ 
+
+      }
+
+      #tagline{
+        margin-left: 1%;
+      }
+
+      #main-heading{
+        margin-left: 1%;
+      }
+
+      .intro-section,.new-features-section,.scenario-section,.team-section{
+        margin-top: 25px;
+      }
+      .intro-section{
+        background-size: contain;
+        height:250px;
+      }
+
+      .features-section{
+
+        margin-top: 100px;
+      }
+
+      .scenario-section{
+
+        max-height:250px;
+      }
+
+      .my-img-circle {
+
+  width: 100%;
+  height: 100%;
+  margin-top: 1%;
+  
+  
+ 
+
 }
-*/
+
+
+
+
+}
+
 
 .quotes {display: none;}
 
