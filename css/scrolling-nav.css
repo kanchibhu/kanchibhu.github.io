@@ -64,7 +64,7 @@ h1{
 }
 
 
-.features-section h3{
+.features-section h3, .team-section h3{
 
   font-family: caviar_dreamsbold;
 
@@ -210,7 +210,7 @@ div.transbox {
 
 .new-features-section {
   height: 100%;
-  padding-top: 50px;
+  padding-top: 30px;
   
   background: #fff;
 }
@@ -247,7 +247,7 @@ div.transbox {
 
 .team-section {
   height: 100%;
-  padding-top: 150px;
+  padding-top: 100px;
   text-align: justify;
 
   background: #fff;
@@ -452,11 +452,11 @@ display: block;
 
     background-color: transparent;
     width:100%;
-margin-left:0%;
-display:block;
-margin-top:150%;
+    margin-left:0%;
+    display:block;
+    margin-top:1%;
 
-padding: 5px;
+    padding: 5px;
  
 
       }
