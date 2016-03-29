@@ -103,6 +103,11 @@ display:none;
 color: #f89d3e;
 }
 
+#renders{
+
+  display: none;
+}
+
 
 @media(min-width:767px) {
   .navbar {
@@ -442,6 +447,11 @@ display: none;
           display:block;
         }
 
+        #renders{
+
+          display: block;
+        }
+
       .circle1{
         display: none;
       }
@@ -499,8 +509,8 @@ display: none;
 
       .features-section{
 
-        margin-top: 100px;
-        height:600px;
+        margin-top: 5px;
+        height:1100px;
       }
 
       .scenario-section{
